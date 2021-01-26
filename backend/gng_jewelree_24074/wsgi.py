@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gng_jewelree_24074.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gng_jewelree_24074.settings")
 
 application = get_wsgi_application()
